@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset ="UTF-8">
+<title>对象</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+<p>我的第一个js文件</p>
+<script>
+	// 属性和方法
+var dog = {
+	name : "旺财",
+	age : 10,
+	friends : ["小黄", "彤彤"],
+	eat : function(){
+		console.log("吃饭了")
+		},
+  run : function(){
+  	console.log('跑步咯');
+  }	,
+	}	
+	//调用
+	
+	//调用对象的属性
+	console.log(dog.name);
+	
+	//改对象的值
+	dog.name = "小英";
+	console.log(dog.name);
+	
+	//调用对象的方法
+	dog.run();
+	
+	
+</script>
+
+</body>
+</html>
